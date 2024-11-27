@@ -121,6 +121,6 @@ def process_all_files_in_directory(directory_path, output_file):
             process_train_schedule(file_path, output_file)
 
 if __name__ == "__main__":
-    input_directory = "C:/Users/Frank1225/Desktop/husuhu"  # 输入目录
-    output_file = "C:/Users/Frank1225/Desktop/husuhu/output.csv"  # 输出文件
+    input_directory = "your_path"  # 输入目录
+    output_file = "your_path/output.csv"  # 输出文件
     process_all_files_in_directory(input_directory, output_file)
